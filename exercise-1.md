@@ -51,4 +51,3 @@
 5. **End Result Check**: Confirm that:
    - The **Workshops** list has columns for **Workshop Title**, **Date**, **Capacity**, and **Description**
    - The **Registrations** list has **Attendee Name**, **Email**, and **Workshop Title** (lookup column)
-

@@ -124,9 +124,10 @@ WE want to get y ou started with Power Apps and Power Automate and SharePoint an
 ## Intro to the Power Platform
 
 ## Labs
-* Create SharePoint Lists
-* Set yourself up for success with a Solution
-* Connect your Power App to the SharePoint Lists
+
+* Create SharePoint Lists --> exercise-1
+* Set yourself up for success with a Solution --> exercise-2
+* Connect your Power App to the SharePoint Lists --> exercise-3
 * Add and Edit List Items through Power Apps with a Form
 * Add Attendees with the Patch command
 * Create a Form for Event registration
@@ -134,4 +135,4 @@ WE want to get y ou started with Power Apps and Power Automate and SharePoint an
 * Send a Reminder with Power Automate
 * Send Files via Power Automate
 
-## Why you should feel dirty and asahamed about everything that we did in the last 5 hours and how you can create enterprise ready solutions with the Power Platform
+## Why you should feel dirty and ashamed about everything that we did in the last 5 hours and how you can create enterprise ready solutions with the Power Platform
