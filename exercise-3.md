@@ -20,7 +20,15 @@
 
 6. **Connect Data Sources**:
    - Go to **Data** on the left panel
-   - Select **+ Add data** and search for **SharePoint**
+   - Select **+ Add data** and search for `SharePoint`
+
+![add SharePoint as a data source](/assets/espc24-add-sp.png)
    - Connect to your SharePoint site and select **Workshops** and **Registrations** lists
    - Select **Connect** to add both lists to the app
+
+![select your lists](/assets/espc24-add-sources.png)
+
+Verify that both lists show up in the **Data** section
+
+![verify datasources](/assets/espc24-verify-datasources.png)
 

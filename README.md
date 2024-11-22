@@ -33,7 +33,7 @@ Slides
 * [Create SharePoint Lists](exercise-1.md)
 * [Set yourself up for success with a Solution](exercise-2.md)
 * [Connect your Power App to the SharePoint Lists](exercise-3.md)
-* Add and edit List items through Power Apps with a Form
+* [Add and edit List items through Power Apps with a Form](exercise-4.md)
 * Add attendees with the patch command
 * Create a Form for event registration
 * Use Power Automate to add your form entries to SharePoint
