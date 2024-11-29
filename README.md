@@ -35,10 +35,9 @@ Slides
 * [Connect your Power App to the SharePoint Lists](exercise-3.md)
 * [Add and edit List items through Power Apps with a Form](exercise-4.md)
 * Add attendees with the patch command
-* Create a Form for event registration
-* Use Power Automate to add your form entries to SharePoint
-* Send a reminder with Power Automate
-* Send files via Power Automate
+* [Create a Form for event registration](exercise-6.md)
+* [Use Power Automate to add your form entries to SharePoint](exercise-7.md)
+* [Send a reminder with Power Automate](exercise-8.md)
 
 ## Why you should feel dirty and ashamed about everything that we did in the last 5 hours and how you can create enterprise ready solutions with the Power Platform
 
