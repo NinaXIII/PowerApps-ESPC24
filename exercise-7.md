@@ -3,17 +3,21 @@ In this exercise we will create our first Power Automate flow. The goal is to tr
 
 ## Always start from the solution and create the flow
 Go to the [Power Automate](https://make.powerautomate.com/) (or Power Apps) homepage, select the correct environment and select the solution you created earlier.
+
 ![power automate](/assets/7_powerautomate.png)
 
 Create a new automated workflow.
+
 ![automated](/assets/7_automated.png)
 
 ## Select the trigger and create the flow
 Give a meaningful name to the flow and select `When a new response is submitted` as the trigger. Click `Create`!
+
 ![create flow](/assets/7_createflow.png)
 
 ## Select the right form and get the response details
 Select the Form we created earlier in the trigger.
+
 ![select form](/assets/7_selectform.png)
 
 Select `+ New step`, type `response` into the search bar and select the Forms action `Get response details`
