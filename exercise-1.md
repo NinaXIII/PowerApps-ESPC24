@@ -49,10 +49,11 @@
      - Under "Get information from," select the **Workshops** list
      - Choose **Workshop Title** in the column dropdown
      - Select **Save**
+   - **isPresent** > yes/no (default no)
 
 ![create a Lookup column](/assets/espc24-createlookup.png)
 
-4. Unrequire and hide the **Title** columnn
+1. Unrequire and hide the **Title** columnn
     - go to ⚙️ > **List settings** > **Advanced Settings** and set **Allow management of content types?** to `Yes`
     - Select **Ok** (scroll all the way down!)
 
@@ -84,5 +85,5 @@ Now the **Title** column is not visible in the List nor in any form and also its
 
 2. **End Result Check**: Confirm that:
    - The **Workshops** list has columns for **Workshop Title**, **Date**, **Capacity**, and **Description**
-   - The **Registrations** list has **Attendee Name**, **Email**, and **Workshop Title** (lookup column)
+   - The **Registrations** list has **Attendee** (Person), and **Workshop Title** (lookup column), **isPresent** (yes no)
 
