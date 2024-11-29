@@ -17,9 +17,11 @@ Select the Form we created earlier in the trigger.
 ![select form](/assets/7_selectform.png)
 
 Select `+ New step`, type `response` into the search bar and select the Forms action `Get response details`
+
 ![get response](/assets/7_getresponse.png)
 
 Selet the right Form again in this action and use the parameter `Response Id` from the previous step (coul look a litle different in your UI - the grey box is new...)
+
 ![attributes](/assets/7_selectattributes.png)
 
 PLEASE SAVE YOUR FLOW!
@@ -28,38 +30,54 @@ PLEASE SAVE YOUR FLOW!
 We need to provide the Workshop ID to fill the `Workshop Title` LookUp field. To provide the ID we can set up a `Switch` action 
 
 Select `+ New step` and initialize a variable.
+
 ![init variable](/assets/7_initvariable.png)
 
 Call the variable `WorkshopID` and set the type to `Integer`
+
 ![name variable](/assets/7_namevariable.png)
 
 Create a `Switch` Action
+
 ![switch](/assets/7_switch.png)
 
 Add the response from the Forms question `Which Workshop would you like to attend?` as dynamic content
+
 ![which workshop](/assets/7_whichworkshop.png)
 
 Chck in the `Workshops` list the IDs of your workshop (you probably need to unhide the ID column - it should start from 1)
+
 ![workshopids](/assets/7_workshopid.png)
 
 Add as many cases as you have workshops and add the exact Workshop titles from SharePoint/Forms to the `Equals` field. Add a `Set variable` action for each Case, select the `WorkshopID` variable and fill in the corresponding IDs from SharePoint.
+
 ![switch setup](/assets/7_switchsetup.png)
 
 ## Switch
 
 ## Add Create item action
 Select `+ New step`, type `create` into the search bar and select the `Create item`action from SharePoint.
+
 ![create](/assets/7_createitem.png)
 
 Select the correct SharePoint-site as well as the `Registrations` list. The fields `Attendee` and `Workshop Title` should now appear on your screen.
+
 ![create parameters](/assets/7_createitemparameters.png)
 
+Select `Attendee claims` and choose `Enter custom value` and select `Responders Email` as dynamic input.
+
 ![dynamic attendee](/assets/7_dynamicattendee.png)
+
+Select `Workshop Title Id` and again choose `Enter custom value` and select the `WorkshopID` variable.
 
 ![dynamic workshop](/assets/7_dynamicworkshop.png)
 
 Your finished flow should look like this. Open your forms and send a test response.
+
 ![finished flow](/assets/7_finishedflow.png)
 
 If the test went through, check your `Registrations` list. You should see a new entry with your user as `Attendee`.
+
 ![success](/assets/7_success.png)
+
+You rock!
