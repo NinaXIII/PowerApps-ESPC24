@@ -1,14 +1,17 @@
-## Creat a Form in MS Forms for participant registration
-In this exercise we will create a Form in MS Forms where the participants will see the different workshops and can select one workshop. We will use the fact, that the participant is logged into M365 and we can automatically submit their identity through forms.
+# Create a Form in Microsoft Forms for attendee registration
+
+In this exercise we will create a Form in MS Forms where the attendees will see the different workshops and can select one workshop. We will use the fact, that the attendee is logged into M365 and we can automatically submit their identity through forms.
 
 ## Create new form
-Navigate to [MS Forms](https://forms.office.com/)
 
-Select "New Form"
+Navigate to [Microsoft Forms](https://forms.office.com/)
+
+Select **New Form**
 
 ![new form](/assets/5_newform.png)
 
 ## Add fields
+
 Skip the Copilot Experience
 
 ![skip copilot](/assets/5_skipcopilotforms.png)
@@ -24,6 +27,7 @@ Add `Which Workshop would you like to attend?` as the title of the question and 
 ![workshops](/assets/5_workshops.png)
 
 ## Automatically submit identity
+
 Select `Collect responses` and make sure `Only people in your company can respond` is selected and `Record name` is enabled.
 
 ![collect responses](/assets/5_collectresponses.png)

@@ -2,8 +2,8 @@
 
 **Workshop Goal:** In 6 hours, attendees will
 
-1. Build a basic “Workshop Sign-Up” Power App with SharePoint Lists as the data source
-2. Automate the sign-up process using Power Automate (reserved for later in the session)
+1. Build a basic Workshop Management Power Apps Canvas App with SharePoint Lists as the data source
+2. Automate the sign-up process using Power Automate
 3. Understand best practices and begin exploring Microsoft Dataverse as an advanced data option
 
 How to instruction for the full day tutorial by [Luise Freese](https://linkedin.com/in/luisefreese) and [Robin Rosengruen](https://www.linkedin.com/in/robinrosengruen/) (Microsoft) at ESPC 24.
@@ -34,10 +34,10 @@ Slides
 * [Set yourself up for success with a Solution](exercise-2.md)
 * [Connect your Power App to the SharePoint Lists](exercise-3.md)
 * [Add and edit List items through Power Apps with a Form](exercise-4.md)
-* Add attendees with the patch command
+* [Check attendance with Patch](exercise-5.md)
 * [Create a Form for event registration](exercise-6.md)
 * [Use Power Automate to add your form entries to SharePoint](exercise-7.md)
 * [Send a reminder with Power Automate](exercise-8.md)
 
-## Why you should feel dirty and ashamed about everything that we did in the last 5 hours and how you can create enterprise ready solutions with the Power Platform
+## Why you should feel dirty and bad about everything that we did in the last 5 hours and how you can create enterprise ready solutions with the Power Platform
 
