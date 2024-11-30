@@ -27,7 +27,23 @@
 
 5. **Verify the List**: Ensure all columns are created as intended by viewing the list settings. You should see **Workshop Title**, **Date**, **Capacity**, and **Description**
 6. Add some Workshops to the list
-//TODO provide some suggestions
+
+You can be very createive ✨ yourself - we just asked Copilot to generate some ideas: 
+
+| Title                                               | Description                                                                                   | Date           | Capacity |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------|----------------|----------|
+| Emotional Intelligence for Leaders                  | Learn to recognize, understand, and manage emotions to enhance leadership effectiveness.       | June 5, 2025   | 30       |
+| Effective Negotiation Strategies                    | Develop skills to negotiate confidently, resolve conflicts, and create win-win solutions.      | June 20, 2025  | 25       |
+| Cybersecurity Basics: Protecting Company Assets     | Understand cybersecurity fundamentals and best practices to safeguard sensitive data.          | July 10, 2025  | 20       |
+| Introduction to Data Visualization with Power BI    | Learn to create impactful dashboards and visualizations using Microsoft Power BI.             | July 25, 2025  | 15       |
+| Agile Project Management Essentials                 | Explore Agile principles, Scrum methodology, and practical tools for efficient project delivery.| August 5, 2025 | 35       |
+| Public Speaking and Presentation Skills             | Gain confidence and techniques for delivering engaging and persuasive presentations.           | August 20, 2025| 30       |
+| Diversity, Equity, and Inclusion in the Workplace   | Build awareness and foster a culture of inclusivity and belonging within your teams.           | September 10, 2025| 40     |
+| Conflict Resolution for Teams                       | Develop strategies to manage and resolve workplace conflicts effectively and professionally.    | September 25, 2025| 30     |
+| Advanced PowerPoint Design for Professionals        | Create visually compelling and professional presentations using advanced PowerPoint features.   | October 10, 2025| 20     |
+| Customer Experience Excellence                      | Understand customer needs and implement strategies to improve satisfaction and loyalty.         | October 25, 2025| 30     |
+
+---
 
 ![Workshops list](/assets/espc24-listworkshops.png)
 
@@ -86,4 +102,3 @@ Now the **Title** column is not visible in the List nor in any form and also its
 2. **End Result Check**: Confirm that:
    - The **Workshops** list has columns for **Workshop Title**, **Date**, **Capacity**, and **Description**
    - The **Registrations** list has **Attendee** (Person), and **Workshop Title** (lookup column), **isPresent** (yes no)
-

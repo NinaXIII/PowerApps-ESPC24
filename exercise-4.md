@@ -65,34 +65,3 @@ The Navigate function can navigate to another screen, we pass in the screen name
 We only want to show items (people) in the **gal_registrations** (which is connected to our **colRegistrations**) who are registered for the selected workshop in the **gal_workshops**. Therefore we need to check if the `'Workshop Title'.Id` is the same as the `gal_workshops.Selected.ID`: `Filter(colRegistrations, 'Workshop Title'.Id = gal_workshops.Selected.ID)`
 
 
-
-
-
-//TODO Luise
-
-- workshops anlegen ✅
-  - form✅ 
-  - navigate ✅
-- ws screen:
-  - liste mit Workshops, in gallery Teilnehmer ✅
-  - teilnehmer abhaken fuer anwesenheit (patch) ✅
-
-- anwesenheitsspalte bool ✅
-
-
-- PowerPoint:
-
-  - intro
-  - intro to PP
-  - Prozess uebersicht
-
-
-- MDA
-
-  - Datenquellen
-  - warum DV superior to SP
-  - 30 minuten live
-  - canvas vs mda: when to use what
-  - 
-
-rrosengrn@microsoft.com

@@ -1,4 +1,4 @@
-# Building a Power App with SharePoint Lists and Dataverse
+# Building a Power App with SharePoint Lists (and Dataverse)
 
 **Runthrough for Luise & Robin:**
 

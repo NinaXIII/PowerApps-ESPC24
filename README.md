@@ -2,7 +2,7 @@
 
 **Workshop Goal:** In 6 hours, attendees will
 
-1. Build a basic Workshop Management Power Apps Canvas App with SharePoint Lists as the data source
+1. Build a basic Workshop Management Power Apps with SharePoint Lists as the data source
 2. Automate the sign-up process using Power Automate
 3. Understand best practices and begin exploring Microsoft Dataverse as an advanced data option
 
