@@ -2,7 +2,7 @@
 
 💡 We will use modern controls in this tutorial. If they are ot enabled yet, please do so by selecting **Settings** > **Updates** and then toggle the switch of **modern controls and themes** to `yes`.
 
-We wil work with our data locally using collections. In the **App** object, select **OnStart** an put in the following code:
+We will work with our data locally using collections. In the **App** object, select **OnStart** an put in the following code:
 
 `ClearCollect(colWorkshops, Workshops); ClearCollect(colRegistrations, Registrations)`
 
